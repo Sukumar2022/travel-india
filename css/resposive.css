@@ -1,0 +1,175 @@
+@media (max-width:1310px) {
+    .banner .banner-left{
+        width: 350px;
+    }   
+}
+@media (max-width:1099px) {
+    .navlink{
+        display: none;
+        top: 0;
+        left: 0;
+        background-color: black;
+        z-index: 99;
+        transition: .3s linear;
+    }
+    .navlink ul{
+        display: block;
+        flex-direction: column;
+    }
+    .navlink a{
+        color: #fff;
+        margin: 0px 18px;
+        text-decoration: none;
+        font-size: 30px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        transition: .3s linear;
+    }
+    .navlink button{
+        margin: 0px 5px;
+        padding: 10px 10px;
+    }
+
+    .navbar i{
+        margin-left: 0px;
+        padding: 10px;
+        display: block;
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .navlink p{
+        position: fixed;
+        top: 30px;
+        right: 10px;
+        display: block;
+        font-size: 35px;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .banner-right {
+        width: 440px;
+    }
+    .form-grp input {
+        width: 400px;
+    }
+    .banner4 video{
+        border-radius: 50px;
+        width: 800px;
+    }
+}
+@media (max-width:1099px){
+    .banner-left h1 {
+        font-size: 54px;
+    }
+}
+@media (max-width:840px){
+    .navbar .logo h3 {
+        font-size: 25px;
+    }
+    .banner-right {
+        margin: 40px 50px;
+     }
+    .banner4 video{
+        width: 700px;
+    }
+    .title h1 {
+        font-size: 45px;
+    }
+    .form-container input {
+        width: 260px;
+        
+    }
+}
+
+@media (max-width:707px){
+    .banner4 video {
+        width: 600px;
+    }
+}
+@media (max-width:637px){
+    .navlink a{
+        font-size: 22px;
+     }
+    .form-container{
+        padding: 20px 20px;
+    }
+    .form-container input{
+        width: 200px;
+    }
+    .bottom .box {
+        height: 174px;
+        width: 230px;
+    }
+    .des-card-container .img-card{
+        height: 450px;
+        width: 415px;
+    }
+    .card-container .travel-card{
+        height: 430px;
+        width: 370px;
+       
+    }
+}
+@media (max-width:504px){
+    .form-grp input {
+        width: 362px;
+    }
+    .left h1 {
+        font-size: 60px;
+    }
+    .right p {
+        font-size: 16px;
+    }
+    .des-card-container .img-card{
+        height: 470px;
+        width: 390px;
+    }
+    .banner4 video {
+        width: 440px;
+        height: 600px;
+    }
+    .bottom .box {
+        height: 177px;
+        width: 360px;
+    }
+    .form-container input {
+        width: 155px;
+    }
+}
+
+@media (max-width:428px){
+   
+    .navlink a{
+        font-size: 18px;
+     }
+    .navlink button{
+        padding: 20px 1px;
+    }
+    .form-grp input {
+        width: 300px;
+    }
+    .banner4 video {
+        width: 368px;
+    }
+    .left h1 {
+        font-size: 44px;
+    }
+    .right p {
+        font-size: 17px;
+    }
+    .title h1 {
+        font-size: 42px;
+    }
+    .des-card-container .img-card{
+        height: 400px;
+        width: 350px;
+    }
+    .form-container input {
+        width: 140px;
+    }
+    .copy{
+        font-size: 13px;
+    }
+}

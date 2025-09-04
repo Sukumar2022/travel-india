@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelIndia</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/resposive.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  </head>
+  <body>
+    <div class="main">
+      <!-- header start -->
+      <div class="header">
+        <div class="navbar">
+          <div class="logo">
+            <h3>TravelIndia</h3>
+          </div>
+          <div class="navlink">
+            <p onclick="closeNav()">X</p>
+            <ul>
+              <a href="" class="active"><li>Home</li></a>
+              <a href=""><li>About</li></a>
+              <a href=""><li>Services</li></a>
+              <a href=""><li>Testimonial</li></a>
+            </ul>
+            <button>
+              <a href="">Contact Us</a>
+            </button>
+            
+          </div>
+          <i class="ri-menu-3-line" onclick="openNav()"></i>
+        </div>
+        <!-- end of navbar  -->
+        
+        <div class="banner">
+          <div class="banner-left">
+            <h1>
+              Tour Travel & <br />
+              <span>Adventure</span> Campign
+            </h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              ducimus voluptate consequatur reiciendis. Quisquam, perferendis!
+            </p>
+          </div>
+          <div class="banner-right">
+            <h4>Find Your Next Adventure</h4>
+            <form action="" method="post">
+              <div class="form-grp">
+                <label for="">Destination</label><br />
+                <input type="text" name="" id="" placeholder="Where" />
+              </div>
+              <div class="form-grp">
+                <label for="">Check-In</label>
+                <input type="date" name="" id="" placeholder="Where" />
+              </div>
+              <div class="form-grp">
+                <label for="">Check-Out</label>
+                <input type="date" name="" id="" placeholder="Where" />
+              </div>
+              <div class="form-grp">
+                <label for="">Your Email</label>
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Enter Your Email"
+                />
+              </div>
+              <button>Submit</button>
+            </form>
+          </div>
+        </div>
+        <!-- end of banner  -->
+      </div>
+      <!-- end of header  -->
+      <!-- banner 2  -->
+      <div class="banner2">
+        <div class="title-bar">
+          <h1>Popular Destination</h1>
+        </div>
+        <div class="des-card-container">
+          <div class="img-card">
+            <img
+              src="https://images.unsplash.com/photo-1624256384218-e7a56d570e83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFkYWtofGVufDB8MXwwfHx8MA%3D%3D"
+              alt=""
+              srcset=""
+            />
+            <p>Ladakh</p>
+          </div>
+          <div class="img-card">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1661879239003-8ce0c19aa7be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGphbW11JTIwa2FzaG1pcnxlbnwwfDF8MHx8fDA%3D"
+              alt=""
+              srcset=""
+            />
+            <p>Kashmir</p>
+          </div>
+          <div class="img-card">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1670788667581-380bc0781811?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG11bWJhaSUyMGNpdHl8ZW58MHwxfDB8fHww"
+              alt=""
+              srcset=""
+            />
+            <p>Mumbai</p>
+          </div>
+          <div class="img-card">
+            <img
+              src="https://images.unsplash.com/photo-1676503218975-de9903bfcdf8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGtvbGthdGF8ZW58MHwxfDB8fHww"
+              alt=""
+              srcset=""
+            />
+            <p>Kolkata</p>
+          </div>
+        </div>
+      </div>
+      <!-- end of banner2  -->
+      <div class="banner3">
+        <div class="top">
+          <div class="left">
+            <h1>
+              About Travel <br />
+              Agency
+            </h1>
+          </div>
+          <div class="right">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Inventore reprehenderit ut labore cupiditate laudantium. Neque
+              incidunt iure sunt repellat aliquid
+            </p>
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="box">
+            <i class="fa-solid fa-plane-departure"></i>
+            <div class="dt">
+              <h4>2356</h4>
+              <p>Flights</p>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-certificate"></i>
+            <div class="dt">
+              <h4>280</h4>
+              <p>Certificates</p>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-gift"></i>
+            <div class="dt">
+              <h4>120</h4>
+              <p>Awards</p>
+            </div>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-star"></i>
+            <div class="dt">
+              <h4>390</h4>
+              <p>Reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner3 end  -->
+      <div class="banner4">
+        <video
+          src="Y2meta.app-Welcome to India ! [CINEMATIC TRAVEL FILM]-(480p).mp4"
+          autoplay
+          muted="true"
+          controls=""
+          true
+        ></video>
+      </div>
+      <!-- banner4 end  -->
+      <div class="banner5">
+        <div class="title">
+          <h1>
+            Go Anywhere in india <br />
+            with our latest tour offers
+          </h1>
+        </div>
+        <div class="s-link">
+          <div class="box">
+            <div class="round"></div>
+            <p>Country</p>
+          </div>
+          <div class="box">
+            <div class="round"></div>
+            <p>Camping</p>
+          </div>
+          <div class="box">
+            <div class="round"></div>
+            <p>Adventure</p>
+          </div>
+          <div class="box">
+            <div class="round"></div>
+            <p>Hiking</p>
+          </div>
+          <div class="box">
+            <div class="round"></div>
+            <p>Group Trip</p>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="travel-card">
+            <img
+              src="https://images.unsplash.com/photo-1716896427993-ddad7c7ec891?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGFqJTIwbWFoYWwlMjBhZ3JhJTIwaW5kaWF8ZW58MHwxfDB8fHww"
+              alt=""
+              srcset=""
+            />
+            <div class="content">
+              <p>Taj Mahal - Agra</p>
+              <p>$200</p>
+            </div>
+          </div>
+          <div class="travel-card">
+            <img
+              src="https://images.unsplash.com/photo-1705582832193-0849b41ddffc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW5kaWElMjBnYXRlJTIwZGVsaGl8ZW58MHwxfDB8fHww"
+              alt=""
+              srcset=""
+            />
+            <div class="content">
+              <p>India Gate - Delhi</p>
+              <p>$200</p>
+            </div>
+          </div>
+          <div class="travel-card">
+            <img
+              src="https://images.unsplash.com/photo-1649147313351-c86537fda0eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2VkYXJuYXRoJTIwdGVtcGxlfGVufDB8MXwwfHx8MA%3D%3D"
+              alt=""
+              srcset=""
+            />
+            <div class="content">
+              <p>KedarNath</p>
+              <p>$200</p>
+            </div>
+          </div>
+          <div class="travel-card">
+            <img
+              src="https://images.unsplash.com/photo-1603755962670-a6f92be76d5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRhcmplZWxpbmd8ZW58MHwxfDB8fHww"
+              alt=""
+              srcset=""
+            />
+            <div class="content">
+              <p>Darjelling - West Bengal</p>
+              <p>$200</p>
+            </div>
+          </div>
+          <div class="travel-card">
+            <img
+              src="https://images.unsplash.com/photo-1675787126269-cacf91e22a34?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8a29sa2F0YXxlbnwwfDF8MHx8fDA%3D"
+              alt=""
+              srcset=""
+            />
+            <div class="content">
+              <p>City of Joy - Kolkata</p>
+              <p>$200</p>
+            </div>
+          </div>
+          <div class="travel-card">
+            <img
+              src="https://images.unsplash.com/photo-1678624080006-09f033a6e17c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFrc2hhZHdlZXB8ZW58MHwxfDB8fHww"
+              alt=""
+              srcset=""
+            />
+            <div class="content">
+              <p>Lakhashydip</p>
+              <p>$200</p>
+            </div>
+          </div>
+          <div class="travel-card">
+            <img
+              src="https://images.unsplash.com/photo-1679225181515-c7f5059c84f7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGphaXB1ciUyMHBhbGFjZXxlbnwwfDF8MHx8fDA%3"
+              alt=""
+              srcset=""
+            />
+            <div class="content">
+              <p>Jaipur</p>
+              <p>$200</p>
+            </div>
+          </div>
+          <div class="travel-card">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1697730334419-fba83fe143b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8a2VyYWxhJTIwbmF0dXJlfGVufDB8MXwwfHx8MA%3D%"
+              alt=""
+              srcset=""
+            />
+            <div class="content">
+              <p>Kerela</p>
+              <p>$200</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of banner5  -->
+      <div class="banner6">
+        <div class="title">
+          <h1>
+            why travelers choose us
+          </h1>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://img.freepik.com/free-photo/portrait-young-man-talking-phone-walking-street_231208-2765.jpg?size=626&ext=jpg&ga=GA1.1.2082370165.1716595200&semt=ais_user" alt="">
+              <h3>Rahul Biswas</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis cupiditate repellendus eum earum.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="https://img.freepik.com/free-photo/portrait-male-tourist-visiting-great-wall-china_23-2151261922.jpg?size=626&ext=jpg&ga=GA1.1.2113030492.1720569600&semt=ais_user" alt="">
+              <h3>Rahul Biswas</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis cupiditate repellendus eum earum.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="https://www.businessinsider.in/photo/32246884.cms" alt="">
+              <h3>Rahul Biswas</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis cupiditate repellendus eum earum.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="https://content.presspage.com/uploads/2338/1920_selfie-auf-der-reise-copypeopleimages.com-adobestock-493554509.jpeg?10000" alt="">
+              <h3>Rahul Biswas</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis cupiditate repellendus eum earum.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScy8kun0H8DG5rXsWbJRuZmdawzGjdXIYxLQ&s" alt="">
+              <h3>Rahul Biswas</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis cupiditate repellendus eum earum.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="https://img.freepik.com/premium-photo/man-with-scarf_151355-54903.jpg" alt="">
+              <h3>Rahul Biswas</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis cupiditate repellendus eum earum.</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="https://media.istockphoto.com/id/1361217779/photo/portrait-of-happy-teenage-boy-at-park.jpg?s=612x612&w=0&k=20&c=yGHZLPu6UWwoj2wazbbepxmjl29MS1Hr2jV3N0FzjyI=" alt="">
+              <h3>Rahul Biswas</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed veritatis cupiditate repellendus eum earum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of banner6  -->
+      <div class="contact">
+        <div class="title">
+          <h1>
+            let's create amazing travel <br> experience together
+          </h1>
+        </div>
+        <div class="form-container">
+          <table>
+            <form action="" method="post">
+              <tr>
+                <th>name</th>
+                <th>email</th>
+              </tr>
+              <tr>
+                <td><input type="text" name="" id="" placeholder="enter your name"></td>
+                <td><input type="text" name="" id="" placeholder="enter your name"></td>
+              </tr>
+              <tr>
+                <th>mobile no</th>
+                <th>country</th>
+              </tr>
+              <tr>
+                <td><input type="text" name="" id="" placeholder="enter your number"></td>
+                <td><input type="text" name="" id="" placeholder="enter your country"></td>
+              </tr>  
+              <tr>
+                <th colspan="2">
+                  message
+                </th>
+                </tr>
+                <tr>
+                <td colspan="2">
+                  <textarea name="" id="" placeholder="enter your message"></textarea>
+                </td>
+              </tr>   
+              <tr>
+                <th><button> send message </button></th>
+              </tr>         
+            </form>
+          </table>
+        </div>
+      </div>
+      <!-- end of contact  -->
+      <footer>
+        <div class="cols">
+          <h3>TravelIndia</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem temporibus ex, perspiciatis obcaecati ipsam nesciunt rerum! Perspiciatis quia, distinctio quibusdam ut consequuntur unde molestiae. Blanditiis.
+          </p>
+        </div>
+        <div class="cols">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Testimonial</a></li>
+            <li><a href="">Contact Us</a></li>
+
+          </ul>
+        </div>
+        <div class="cols">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="">Licence</a></li>
+            <li><a href="">Changelog</a></li>
+            <li><a href="">Styleguide</a></li>
+          </ul>
+        </div>
+        <div class="cols">
+          <h4>Social Media</h4>
+          <div class="links">
+            <a href=""><i class="ri-facebook-circle-fill"></i></a>
+            <a href=""><i class="ri-linkedin-box-fill"></i></a>
+            <a href=""><i class="ri-youtube-fill"></i></a>
+            <a href=""><i class="ri-twitter-fill"></i></a>
+          </div>
+        </div>
+      </footer>
+      <!-- end of footer  -->
+      <div class="copy">
+        No copywrite 2024. Feel free to copy 😊 by Sukumar
+      </div>
+    </div>
+    
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/gsap.min.js"></script>
+    <script src="script/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script/main.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,393 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.main{
+    min-height: 100vh;
+    
+    width: 100%;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.left{
+    height: 100vh;
+    width: 20%;
+    background-color: rgb(21, 22, 24);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+}
+.left ul{
+    margin-top: 30px;
+    list-style: none;
+    width: 95%;
+}
+.left a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.left li{
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    transition: .2s linear;
+    border-radius: 4px;
+}
+.left li:hover{
+    background-color: rgb(98, 231, 45);
+}
+.left li i{
+    margin: 0px 10px;
+}
+.right{
+    height: 100vh;
+    width: 79%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.right h3{
+    color: darkmagenta;
+    padding: 8px;
+    margin: 10px 20px;
+    text-transform: capitalize;
+}
+.container h2{
+    background-color: rgb(176, 175, 182);
+    padding: 3px 10px;
+    margin: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+}
+.card{
+    height: auto;
+}
+
+.swiper {
+    margin: 10px 0px;
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+}
+.swiper-wrapper{
+    padding: 10px;
+}
+
+.swiper-slide {
+    margin: 10px 0px;
+    padding: 4px;
+    text-align: center;
+    font-size: 18px;
+    background: #1e272e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.swiper-slide img {
+    padding: 2px;
+    height: 130px;
+    width: 190px;
+    border-radius: 4px;
+}
+.swiper-slide h3{
+    font-size: 13px;
+    padding: 1px;
+    margin: 5px 0px;
+}
+.swiper-slide p{
+    width: 90%;
+    font-size: 16px;
+}
+.bottom{
+    height: auto;
+    width: 98%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding: 10px;
+}
+.bottom .b-left{
+    min-height: 256px;
+    width: 56%;
+    background-color: #c7d6e2;
+    border-radius: 10px;
+}
+.bottom .content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.content td{
+    background-color: rgb(108, 160, 144);
+    padding: 5px;
+    color: #fff;
+}
+.bottom .b-right{
+    min-height: 256px;
+    width: 42%;
+    background-color: #9ba7b3;
+    border-radius: 10px;
+}
+.details{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.details th{
+    padding: 7px 12px;
+    background-color: rgb(206, 197, 197);
+    text-transform: capitalize;
+    font-weight: 800;
+}
+.details td{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.details td p{
+    padding: 5px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.details td a{
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: rgb(45, 41, 66);
+    color: #fff;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.details td a:hover{
+    background-color: #416079;
+}
+.details tr:hover{
+    cursor: pointer;
+    background-color: rgb(221, 240, 221);
+}
+.card-container, .opt-container{
+    padding: 10px;
+    width: 98%;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-container .box{
+    margin: 20px 10px;
+    padding: 10px;
+    height: auto;
+    width: 230px;
+    background-color: #e4c86c;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card-container .box img{       
+    height: 120px;
+    width: 100px;
+    border-radius: 20px;
+}
+.card-container .box h4{
+    text-transform: capitalize;
+    margin: 7px;
+}
+.card-container .box p{
+    font-size: 12px;
+    width: 90%;
+}
+.box .act{
+    margin: 10px 0px;
+}
+.card-container .box i{
+    margin: 20px;
+    background-color: rgb(52, 50, 73);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    color: #fff;
+}
+.box a{
+    text-decoration: none;
+}
+.box .act{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.act a{
+    margin: 0px 20px;
+    text-decoration: none;
+}
+.opt-container i{
+    font-size: 90px;
+    margin: 10px 20px;
+}
+.opt-container .box{
+    margin: 10px 15px;
+    cursor: pointer;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: orange;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition: .2s linear;
+}
+.opt-container .box:hover{
+    background-color: orange;
+    color: #fff;
+}
+/*for form design*/
+
+.main-div{
+    min-height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 35, 71);
+}
+.main-div .form-div{
+    height: auto;
+    width: auto;
+}
+.main-div .form-div .title{
+    height: 150px;
+    width: 900px;
+    background-image: url('../images/form.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    border-radius: 6px;
+}
+.form-div h1{
+    font-family: cursive;
+    font-weight: 900;
+}
+.form-container{
+    max-width: 900px;
+    margin: 10px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.form-container form{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form-container .fields{
+    margin: 10px 10px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.fields p{
+   margin: 10px 0px;
+   font-weight: bold;
+}
+.fields input{
+    height: 35px;
+    width: 270px;
+    padding: 10px;
+    outline: none;
+    font-size: 12px;
+    color: gray;
+    font-weight: bold;
+}
+.fields button{
+    font-weight: 800;
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .1s linear;
+}
+.form button:hover{
+    background-color: orange;
+    color: #000;
+}
+
+
+
+@media (max-width:628px) {
+    .bottom .b-left{
+        width: 98%;
+        
+    }
+    .bottom .b-right{
+        margin: 20px 0px;
+        min-height: 256px;
+        width: 98%;
+        background-color: #9ba7b3;
+        border-radius: 10px;
+    }
+}
+@media (max-width:500px) {
+    .main-div .form-div .title {
+        height: 130px;
+        width: 463px;
+        margin: 15px
+    }
+    .form-container {     
+            width: 461px;
+            margin: 16px 18px;
+        }
+    
+    .fields input{
+        height: 40px;
+        width: 200px;
+    }
+}
+@media (max-width:428px) {
+    .main-div .form-div .title {
+        height: 130px;
+        width: 390px;
+        margin: 19px 0px;
+    }
+    .form-container {     
+            width: 390px;
+            margin: 5px 0px;
+        }
+    .fields p{
+        font-size: 18px;
+    }
+    .fields input{
+        height: 45px;
+        width: 330px;
+    }
+}

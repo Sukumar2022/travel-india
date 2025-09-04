@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.c-main{
+    padding: 10px;
+    min-height: 100vh;
+    height: auto;
+    background-color: #273c75;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.c-main .left{
+    height: 520px;
+    width: 440px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.c-main .left i{
+    color: yellow;
+    font-size: 100px;
+}
+.c-main .left h1{
+    font-family: "Matemasie", sans-serif;
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.c-main .right{
+    height: 520px;
+    width: 500px;
+    background-color: #fbc531;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3px;
+}
+.c-main .top{
+    font-family: "Nerko One", cursive;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 98%;
+    margin: 10px 0px;
+}
+.c-main .top p{
+    margin: 0px 10px;
+    font-size: 33px;
+    color: #273c75;
+}
+.c-main .top span{
+    color: 13px;
+    color: #fff;
+}
+.c-main .right .middle{
+    width: 95%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #273c75;
+}
+.right .middle h2{
+    font-family: "Nerko One", cursive;
+    padding: 10px;
+    margin: 0px 0px;
+    font-size: 33px;
+    text-transform: capitalize;
+}
+.right .middle .form-div{
+    padding: 8px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Raleway", sans-serif; 
+}
+.c-main .right .middle .form-div .form-ctr{
+    height: auto;
+    width: auto;
+    padding: 2px; 
+    margin: 3px 3px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.c-main .right .middle .form-div .form-ctr p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #273c75;
+    margin: 10px 0px;
+    font-weight: 800;
+}
+.c-main .right .middle .form-div .form-ctr input{
+    height: 40px;
+    width: 213px;
+    padding: 10px;
+    color: #000;
+    outline: none;
+    font-size: 15px;
+}
+.c-main .right .middle .form-div .form-ctr button{
+    height: 40px;
+    width: 214px;
+    border: none;
+    background-color:#273c75;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.c-main .bottom{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    font-family: "Raleway", sans-serif; 
+    font-size: 11px;
+    font-weight: 600;
+}
+@media (max-width:528px) {
+    .c-main .left {
+        height: 310px;
+    }
+    .c-main .left i {
+        font-size: 45px;
+    }
+    .c-main .left h1 {
+        font-size: 44px;
+    }
+}
+@media (max-width:432px) {
+    .c-main{
+        padding: 20px 10px;
+
+    }
+    .c-main .right{
+        height: auto;
+        width: 394px;
+    }
+    .c-main .top p {
+        margin: 0px 5px;
+        font-size: 22px;
+    }
+    .c-main .right .middle .form-div .form-ctr p {
+        font-size: 18px;
+    }    
+    .c-main .right .middle .form-div .form-ctr input {
+        height: 50px;
+        width: 348px;
+        padding: 12px;
+    }
+}
